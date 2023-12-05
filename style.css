@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .3rem 3rem;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0,.5);
+    background: black;
+    
+
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(248, 195, 245) !important;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid  rgb(248, 195, 245);
+}
+#navbarSupportedContent button{
+    background: aquamarine;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner{
+    max-height: 600px;
+}
+.carousel slide{
+    padding: 200px;
+}
